@@ -1,0 +1,113 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "length-of-the-array;length-of-the-empty-array",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "length of the empty array",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Array is empty",
+            "match": {
+              "location": "features\\support\\step_definitions\\lengthArr.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "load the array with empty value",
+            "match": {
+              "location": "features\\support\\step_definitions\\lengthArr.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the length of the array should be 0",
+            "match": {
+              "location": "features\\support\\step_definitions\\lengthArr.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "length-of-the-array;length-of-the-empty-array",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "length of the empty array",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "Array is has value",
+            "match": {
+              "location": "features\\support\\step_definitions\\lengthArr.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "load the array with 2,3,4 value",
+            "match": {
+              "location": "features\\support\\step_definitions\\lengthArr.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the length of the non empty array should be 3",
+            "match": {
+              "location": "features\\support\\step_definitions\\lengthArr.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "length-of-the-array",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Length of the array",
+    "tags": [],
+    "uri": "features\\arrayLength.feature"
+  }
+]
