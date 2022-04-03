@@ -17,6 +17,8 @@ jobs:
           name: Generate Reports
           command: |
             npm run rept
+      - store_artifacts:
+          path: reports
 workflows:
   execute_tests:
     jobs:
